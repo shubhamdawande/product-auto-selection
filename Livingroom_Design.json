@@ -1,0 +1,2691 @@
+{
+    "status": "success",
+    "data": {
+        "lock": false,
+        "demo": true,
+        "camera": {
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "rotation": {
+                "x": 2,
+                "y": 103,
+                "z": 70
+            },
+            "scale": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            }
+        },
+        "viewpoint": [],
+        "_id": "5c1a0c516126890722f61335",
+        "name": "mid-century modern",
+        "paint": [
+            {
+                "adjust": {
+                    "repeat": 0
+                },
+                "_id": "5c24b89b7fd7f05462a62bb8",
+                "wall": "wall_1",
+                "wallfinish": "5b5c87a2fe8ab00c22000611"
+            },
+            {
+                "adjust": {
+                    "repeat": 0
+                },
+                "_id": "5c24b89b7fd7f05462a62bb7",
+                "wall": "wall_3",
+                "wallfinish": "5b5c87a2fe8ab00c22000611"
+            },
+            {
+                "adjust": {
+                    "repeat": 0
+                },
+                "_id": "5c24b89b7fd7f05462a62bb6",
+                "wall": "Wall_4",
+                "wallfinish": "5b5c87a2fe8ab00c22000611"
+            },
+            {
+                "adjust": {
+                    "repeat": 0
+                },
+                "_id": "5c24b89b7fd7f05462a62bb5",
+                "wall": "wall_2",
+                "wallfinish": "5b5c87a2fe8ab00c22000611"
+            }
+        ],
+        "viewPoints": [
+            {
+                "position": {
+                    "x": 2.627871,
+                    "y": 1.3,
+                    "z": 2.521413
+                },
+                "rotation": {
+                    "x": 2,
+                    "y": 221.1093,
+                    "z": 70
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "_id": "5c24b89b7fd7f05462a62bbd"
+            },
+            {
+                "position": {
+                    "x": 3.080095,
+                    "y": 1.3,
+                    "z": 0.3097092
+                },
+                "rotation": {
+                    "x": 2,
+                    "y": 268.4928,
+                    "z": 70
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "_id": "5c24b89b7fd7f05462a62bbc"
+            },
+            {
+                "position": {
+                    "x": -2.380318,
+                    "y": 1.3,
+                    "z": 0.4083023
+                },
+                "rotation": {
+                    "x": 2,
+                    "y": 91.54783,
+                    "z": 70
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "_id": "5c24b89b7fd7f05462a62bbb"
+            },
+            {
+                "position": {
+                    "x": -0.2987528,
+                    "y": 1.3,
+                    "z": -2.672401
+                },
+                "rotation": {
+                    "x": 2,
+                    "y": 0,
+                    "z": 70
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "_id": "5c24b89b7fd7f05462a62bba"
+            },
+            {
+                "position": {
+                    "x": -0.8474445,
+                    "y": 1.3,
+                    "z": 0.9203022
+                },
+                "rotation": {
+                    "x": 2,
+                    "y": 91.25265,
+                    "z": 70
+                },
+                "scale": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 1
+                },
+                "_id": "5c24b89b7fd7f05462a62bb9"
+            }
+        ],
+        "assets": [
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.08978897,
+                        "y": 0.0127,
+                        "z": -1.425511
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b59",
+                "asset": {
+                    "price": {
+                        "customer": 2699,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/raylan-leather-sofa-collection/?pkey=e%7Csofa%7C385%7Cbest%7C0%7C3%7C48%7C%7C6&cm_src=PRODUCTSEARCH"
+                    },
+                    "dimension": {
+                        "depth": 3,
+                        "width": 6.46,
+                        "height": 2.67
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c179dc16126890722f5eee8",
+                    "name": "RAYLAN LEATHER SOFA COLLECTION",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029ade96a1324d4c54aae5",
+                    "vertical": "5b029cb896a1324d4c54aaf1",
+                    "createdAt": "2018-12-17T12:59:45.804Z",
+                    "updatedAt": "2018-12-17T13:00:43.719Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b5a",
+                "asset": {
+                    "price": {
+                        "customer": 974,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/raylan-leather-armchair/?cm_src=AutoSchRel"
+                    },
+                    "dimension": {
+                        "depth": 2.96,
+                        "width": 2.33,
+                        "height": 2.42
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c1790046126890722f5eec0",
+                    "name": "RAYLAN LEATHER ARMCHAIR",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029b0196a1324d4c54aae6",
+                    "vertical": "5b029d5696a1324d4c54aaf9",
+                    "createdAt": "2018-12-17T12:01:08.166Z",
+                    "updatedAt": "2018-12-26T12:48:13.820Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -0.495998,
+                        "y": 0.0127,
+                        "z": 1.471835
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 180,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b5b",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c1b8f209222900fd2b7681b",
+                    "name": "Armchair",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-20T12:46:24.325Z",
+                    "updatedAt": "2018-12-20T12:46:36.169Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b5c",
+                "asset": {
+                    "price": {
+                        "customer": 1099,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/griffin-metal-wood-slab-coffee-table/?pkey=ccoffee-tables&isx=0.0.2000#viewLargerHeroOverlay"
+                    },
+                    "dimension": {
+                        "depth": 3.5,
+                        "width": 5,
+                        "height": 1.58
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c176a4b6126890722f5ee9f",
+                    "name": "Griffin Reclaimed Wood Coffee Table",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029bc796a1324d4c54aae7",
+                    "vertical": "5b029df996a1324d4c54ab01",
+                    "createdAt": "2018-12-17T09:20:11.201Z",
+                    "updatedAt": "2018-12-17T09:26:37.008Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.142752,
+                        "y": 0.0127,
+                        "z": 0.9284733
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 90,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b5d",
+                "asset": {
+                    "price": {
+                        "customer": 399,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/metropolitan-console-table/?pkey=cconsole-tables&isx=0.0.2406"
+                    },
+                    "dimension": {
+                        "depth": 1.38,
+                        "width": 4.04,
+                        "height": 2.5
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c179b656126890722f5eed2",
+                    "name": "METROPOLITAN CONSOLE TABLE",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029bc796a1324d4c54aae7",
+                    "vertical": "5b029e1496a1324d4c54ab03",
+                    "createdAt": "2018-12-17T12:49:41.552Z",
+                    "updatedAt": "2018-12-17T12:58:06.660Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -3.303343,
+                        "y": 0.8767185,
+                        "z": -1.971483
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 269,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b5e",
+                "asset": {
+                    "price": {
+                        "customer": 499,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Pottery Barn",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/concave-refraction-wall-art/?pkey=e%7Cconcave%2Brefraction%2Bcanvas%7C1%7Cbest%7C0%7C1%7C48%7C%7C1&cm_src=PRODUCTSEARCH"
+                    },
+                    "dimension": {
+                        "depth": 3,
+                        "width": 4,
+                        "height": 0.13
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c18cb136126890722f60049",
+                    "name": "CONCAVE REFRACTION CANVAS",
+                    "category": "5b029ab396a1324d4c54aae4",
+                    "subcategory": "5b211f6c68fc51239c19c852",
+                    "vertical": "5b21205968fc51239c19c880",
+                    "createdAt": "2018-12-18T10:25:23.451Z",
+                    "updatedAt": "2018-12-18T10:31:29.683Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b5f",
+                "asset": {
+                    "price": {
+                        "customer": 499,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/griffin-metal-wood-slab-side-table/?pkey=cend-tables&isx=0.0.1300"
+                    },
+                    "dimension": {
+                        "depth": 1.42,
+                        "width": 2.25,
+                        "height": 2.17
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c17783a6126890722f5eeaa",
+                    "name": "GRIFFIN RECLAIMED WOOD END TABLE",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029bc796a1324d4c54aae7",
+                    "vertical": "5b029e2196a1324d4c54ab04",
+                    "createdAt": "2018-12-17T10:19:38.745Z",
+                    "updatedAt": "2018-12-17T10:20:41.384Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.113787,
+                        "y": 0.7325091,
+                        "z": 1.35817
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 34,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b60",
+                "asset": {
+                    "price": {
+                        "customer": null,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/miles-table-lamp/?pkey=e%7Cmid%2Bcentury%2Blamp%7C332%7Cbest%7C0%7C3%7C48%7C%7C44&cm_src=PRODUCTSEARCH"
+                    },
+                    "dimension": {
+                        "depth": 1.04,
+                        "width": 1.04,
+                        "height": 2.13
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c18ad5b6126890722f5fd25",
+                    "name": "MILES TABLE LAMP",
+                    "category": "5b029a6796a1324d4c54aae3",
+                    "subcategory": "5b1ca1848132e3467406f756",
+                    "vertical": "5b1ca1ad8132e3467406f759",
+                    "createdAt": "2018-12-18T08:18:35.103Z",
+                    "updatedAt": "2018-12-18T11:00:15.454Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -1.382053,
+                        "y": 0.0127,
+                        "z": -1.641516
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 179,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b61",
+                "asset": {
+                    "price": {
+                        "customer": 389,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/gracie-shelf-floor-lamp/?pkey=cfloor-lamps&isx=0.0.9600"
+                    },
+                    "dimension": {
+                        "depth": 1.63,
+                        "width": 1.63,
+                        "height": 5.42
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c18f3516126890722f60884",
+                    "name": "GRACIE SHELF FLOOR LAMP",
+                    "category": "5b029a6796a1324d4c54aae3",
+                    "subcategory": "5b1ca1848132e3467406f756",
+                    "vertical": "5b1ca1928132e3467406f758",
+                    "createdAt": "2018-12-18T13:17:05.983Z",
+                    "updatedAt": "2018-12-18T13:21:14.197Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.07570195,
+                        "y": 0.0127,
+                        "z": -0.101519
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b62",
+                "asset": {
+                    "price": {
+                        "customer": 379.99,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/wilkes-natural-fiber-rug/?pkey=cpatterned-rugs&isx=0.1.17300"
+                    },
+                    "dimension": {
+                        "depth": 12,
+                        "width": 9,
+                        "height": 0.04
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c18f35a6126890722f60885",
+                    "name": "WILKES NATURAL FIBER RUG",
+                    "category": "5b029a5796a1324d4c54aae1",
+                    "subcategory": "5b02a2ba96a1324d4c54ab23",
+                    "vertical": "5b02a37f96a1324d4c54ab2b",
+                    "createdAt": "2018-12-18T13:17:14.842Z",
+                    "updatedAt": "2018-12-18T13:17:34.678Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b63",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c19db096126890722f61099",
+                    "name": "Aider Mirror",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-19T05:45:45.804Z",
+                    "updatedAt": "2018-12-19T05:45:50.863Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.5557473,
+                        "y": 0.5578062,
+                        "z": 0.3363511
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 65.00001,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b64",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c18f5fa6126890722f60a1b",
+                    "name": "Magazine",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-18T13:28:26.347Z",
+                    "updatedAt": "2018-12-18T13:28:31.776Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.111166,
+                        "y": 0.7659426,
+                        "z": 0.5953258
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 90,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b65",
+                "asset": {
+                    "price": {
+                        "customer": null,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "www.homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 1,
+                        "width": 1,
+                        "height": 1
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c18dfcc6126890722f603bc",
+                    "name": "Vase",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-18T11:53:48.545Z",
+                    "updatedAt": "2018-12-18T11:56:27.975Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b66",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 1,
+                        "width": 1,
+                        "height": 1
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c0905afcf94d11ef9544ff0",
+                    "name": "Plant 2",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-06T11:19:11.637Z",
+                    "updatedAt": "2018-12-06T11:19:26.594Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.1229345,
+                        "y": 0.5394715,
+                        "z": 0.208844
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b67",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0,
+                        "width": 0,
+                        "height": 0
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1908a26126890722f60af8",
+                    "name": "Vase_grass",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-18T14:48:02.751Z",
+                    "updatedAt": "2018-12-18T14:48:18.326Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b68",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0,
+                        "width": 0,
+                        "height": 0
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c18fb116126890722f60a21",
+                    "name": "Ribbed Vase",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-18T13:50:09.111Z",
+                    "updatedAt": "2018-12-18T13:50:31.870Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b69",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c164d456126890722f5ee8c",
+                    "name": "Lamp",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-16T13:04:05.433Z",
+                    "updatedAt": "2018-12-16T13:04:29.494Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b6a",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 4.3,
+                        "width": 4.4,
+                        "height": 1.8
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5bea977837cbc32dfa683188",
+                    "name": "stool",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-11-13T09:20:56.096Z",
+                    "updatedAt": "2018-11-13T09:25:54.280Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.170204,
+                        "y": 0.0127,
+                        "z": 2.007747
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 180,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b6b",
+                "asset": {
+                    "price": {
+                        "customer": 209,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Pottery Barn",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/kirkham-tufted-leather-x-base-stool/"
+                    },
+                    "dimension": {
+                        "depth": 1.16,
+                        "width": 1.6,
+                        "height": 1.54
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c00298fbf05724c0cedea3f",
+                    "name": "KIRKHAM TUFTED LEATHER STOOL",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029b0196a1324d4c54aae6",
+                    "vertical": "5b029db096a1324d4c54aafe",
+                    "createdAt": "2018-11-29T18:01:51.851Z",
+                    "updatedAt": "2018-12-04T12:56:00.102Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.170204,
+                        "y": 0.0127,
+                        "z": -0.1779256
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b6c",
+                "asset": {
+                    "price": {
+                        "customer": 209,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Pottery Barn",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/kirkham-tufted-leather-x-base-stool/"
+                    },
+                    "dimension": {
+                        "depth": 1.16,
+                        "width": 1.6,
+                        "height": 1.54
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c00298fbf05724c0cedea3f",
+                    "name": "KIRKHAM TUFTED LEATHER STOOL",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029b0196a1324d4c54aae6",
+                    "vertical": "5b029db096a1324d4c54aafe",
+                    "createdAt": "2018-11-29T18:01:51.851Z",
+                    "updatedAt": "2018-12-04T12:56:00.102Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 1.784193,
+                        "y": 0.01269996,
+                        "z": 2.912893
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b6d",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c13bcd26126890722f5e977",
+                    "name": "Curtain",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-14T14:23:14.782Z",
+                    "updatedAt": "2018-12-14T14:23:31.770Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -2.861829,
+                        "y": 1.658794,
+                        "z": 0.106268
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b6e",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c19e4846126890722f611b1",
+                    "name": "Aiden Mirror Horizontal",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-19T06:26:12.867Z",
+                    "updatedAt": "2018-12-19T06:26:24.835Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -3.333026,
+                        "y": 0.9016029,
+                        "z": 2.146182
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 270,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": true,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b6f",
+                "asset": {
+                    "price": {
+                        "customer": 499,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Pottery Barn",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/playa-vista-canvas/?pkey=ccanvas-art&isx=0.0.10900"
+                    },
+                    "dimension": {
+                        "depth": 0.04,
+                        "width": 2.94,
+                        "height": 2.94
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a06ae6126890722f612ac",
+                    "name": "PLAYA VISTA CANVAS",
+                    "category": "5b029ab396a1324d4c54aae4",
+                    "subcategory": "5b211f6c68fc51239c19c852",
+                    "vertical": "5b21205968fc51239c19c880",
+                    "createdAt": "2018-12-19T08:51:58.728Z",
+                    "updatedAt": "2018-12-19T09:01:37.735Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b70",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0,
+                        "width": 0,
+                        "height": 0
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a2cc96126890722f61587",
+                    "name": "white throw",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-19T11:34:33.916Z",
+                    "updatedAt": "2018-12-19T11:35:07.899Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b71",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0,
+                        "width": 0,
+                        "height": 0
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a11e26126890722f61434",
+                    "name": "CURTAIN PB",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-19T09:39:46.803Z",
+                    "updatedAt": "2018-12-24T06:07:02.874Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b72",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a2f666126890722f61611",
+                    "name": "Throw",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-19T11:45:42.500Z",
+                    "updatedAt": "2018-12-19T11:45:50.785Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b73",
+                "asset": {
+                    "price": {
+                        "customer": 419,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/gemma-crystal-tiered-flushmount/?cm_src=rel"
+                    },
+                    "dimension": {
+                        "depth": 1.46,
+                        "width": 1.46,
+                        "height": 1.04
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "ceiling",
+                    "_id": "5c1a4c146126890722f61aa0",
+                    "name": "GEMMA CRYSTAL TIERED FLUSH MOUNT",
+                    "category": "5b029a6796a1324d4c54aae3",
+                    "subcategory": "5b1ca1898132e3467406f757",
+                    "vertical": "5b1ca22c8132e3467406f761",
+                    "createdAt": "2018-12-19T13:48:04.168Z",
+                    "updatedAt": "2018-12-19T13:48:16.327Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b74",
+                "asset": {
+                    "price": {
+                        "customer": 34,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/faye-textured-linen-pillow-cover/?pkey=call-pillows-throws-slipcovers&isx=0.0.1000"
+                    },
+                    "dimension": {
+                        "depth": 0.42,
+                        "width": 1.67,
+                        "height": 1.67
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a36646126890722f617fb",
+                    "name": "FAYE TEXTURED LINEN PILLOW COVERS",
+                    "category": "5b029a5796a1324d4c54aae1",
+                    "subcategory": "5b02a2bf96a1324d4c54ab24",
+                    "vertical": "5b02a3bb96a1324d4c54ab2f",
+                    "createdAt": "2018-12-19T12:15:32.319Z",
+                    "updatedAt": "2018-12-19T12:17:12.951Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b75",
+                "asset": {
+                    "price": {
+                        "customer": 34,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/faye-textured-linen-pillow-cover/?pkey=call-pillows-throws-slipcovers&isx=0.0.1000"
+                    },
+                    "dimension": {
+                        "depth": 0.42,
+                        "width": 1.67,
+                        "height": 1.67
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a39ae6126890722f617fc",
+                    "name": "FAYE TEXTURED LINEN PILLOW COVERS GREY",
+                    "category": "5b029a5796a1324d4c54aae1",
+                    "subcategory": "5b02a2bf96a1324d4c54ab24",
+                    "vertical": "5b02a3bb96a1324d4c54ab2f",
+                    "createdAt": "2018-12-19T12:29:34.426Z",
+                    "updatedAt": "2018-12-19T12:30:47.702Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.401611,
+                        "y": 0.0127,
+                        "z": 1.456227
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 180,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b76",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c1b8f209222900fd2b7681b",
+                    "name": "Armchair",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-20T12:46:24.325Z",
+                    "updatedAt": "2018-12-20T12:46:36.169Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b77",
+                "asset": {
+                    "price": {
+                        "customer": 499,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756dad3f600d5793cada61",
+                        "productUrl": "https://www.potterybarn.com/products/veranda-round-chandelier/?pkey=e%7Cveranda%2Bround%2Bchandelier%7C114%7Cbest%7C0%7C1%7C48%7C%7C1&cm_src=PRODUCTSEARCH"
+                    },
+                    "dimension": {
+                        "depth": 2.67,
+                        "width": 2.67,
+                        "height": 2.38
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "ceiling",
+                    "_id": "5c1b92ef9222900fd2b76867",
+                    "name": "VERANDA ROUND CHANDELIER",
+                    "category": "5b029a6796a1324d4c54aae3",
+                    "subcategory": "5b1ca1898132e3467406f757",
+                    "vertical": "5b1ca22c8132e3467406f761",
+                    "createdAt": "2018-12-20T13:02:39.821Z",
+                    "updatedAt": "2018-12-20T13:03:24.079Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b78",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1a4bd56126890722f61a9f",
+                    "name": "Big Curtain",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-19T13:47:01.104Z",
+                    "updatedAt": "2018-12-19T13:47:20.094Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -0.6858554,
+                        "y": 0.0323658,
+                        "z": -1.302494
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b79",
+                "asset": {
+                    "price": {
+                        "customer": 1,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c208aa59222900fd2b797b7",
+                    "name": "sofa throw",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba234a2e852e80dad11b656",
+                    "vertical": "5ba234efe852e80dad11b659",
+                    "createdAt": "2018-12-24T07:28:37.919Z",
+                    "updatedAt": "2018-12-24T07:28:52.530Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": -1.713442,
+                        "y": 0.01269996,
+                        "z": 2.912893
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b7a",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c13bcd26126890722f5e977",
+                    "name": "Curtain",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-14T14:23:14.782Z",
+                    "updatedAt": "2018-12-14T14:23:31.770Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.712719,
+                        "y": 0.4500958,
+                        "z": -1.499482
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 166,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b7b",
+                "asset": {
+                    "price": {
+                        "customer": 39,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756b233f600d5793cada59",
+                        "productUrl": "https://www.westelm.com/products/pinwheel-jacquard-velvet-pillow-covers-t4625/?pkey=s%7Cpillows%7C105%7Cnewcore%2Basc%7C1%7C72%7CPinwheel%20Jacquard%20Velvet%20Pillow%20Cover"
+                    },
+                    "dimension": {
+                        "depth": 0.33,
+                        "width": 1.5,
+                        "height": 1.5
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c0ba3feb207e30c43202363",
+                    "name": "Pinwheel Jacquard Velvet Pillow Covers",
+                    "category": "5b029a5796a1324d4c54aae1",
+                    "subcategory": "5b02a2bf96a1324d4c54ab24",
+                    "vertical": "5b02a3bb96a1324d4c54ab2f",
+                    "createdAt": "2018-12-08T10:59:10.765Z",
+                    "updatedAt": "2018-12-08T11:00:24.943Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.2551419,
+                        "y": 0.4299407,
+                        "z": -1.523863
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 169,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b7c",
+                "asset": {
+                    "price": {
+                        "customer": 39,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756b233f600d5793cada59",
+                        "productUrl": "https://www.westelm.com/products/pinwheel-jacquard-velvet-pillow-covers-t4625/?pkey=s%7Cpillows%7C105%7Cnewcore%2Basc%7C1%7C72%7CPinwheel%20Jacquard%20Velvet%20Pillow%20Cover"
+                    },
+                    "dimension": {
+                        "depth": 0.33,
+                        "width": 1.5,
+                        "height": 1.5
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c0ba3feb207e30c43202363",
+                    "name": "Pinwheel Jacquard Velvet Pillow Covers",
+                    "category": "5b029a5796a1324d4c54aae1",
+                    "subcategory": "5b02a2bf96a1324d4c54ab24",
+                    "vertical": "5b02a3bb96a1324d4c54ab2f",
+                    "createdAt": "2018-12-08T10:59:10.765Z",
+                    "updatedAt": "2018-12-08T11:00:24.943Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b7d",
+                "asset": {
+                    "price": {
+                        "customer": 59,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b756b233f600d5793cada59",
+                        "productUrl": "https://www.westelm.com/products/peruvian-wall-mirrors-h3376/?cm_src=PIPRecentView"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 1,
+                        "height": 1
+                    },
+                    "currency": "USD",
+                    "glossy": true,
+                    "mountType": "wall",
+                    "_id": "5c08bf56fa7d96333487d901",
+                    "name": "Peruvian Starburst Mirrors 12 inch",
+                    "category": "5b029a6096a1324d4c54aae2",
+                    "subcategory": "5b02a5fc96a1324d4c54ab4b",
+                    "vertical": "5b1e041c8132e3467406f76a",
+                    "createdAt": "2018-12-06T06:19:02.203Z",
+                    "updatedAt": "2018-12-11T14:48:07.644Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b7e",
+                "asset": {
+                    "price": {
+                        "customer": 70.99,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Wayfair",
+                        "organization": "",
+                        "organizationInternalLink": "5b756a993f600d5793cada57",
+                        "productUrl": "https://www.wayfair.com/decor-pillows/pdp/corrigan-studio-rustic-bronze-wall-mirror-cstd3683.html"
+                    },
+                    "dimension": {
+                        "depth": 0.06,
+                        "width": 1.33,
+                        "height": 2.16
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5bfe8018bf05724c0cedcfa4",
+                    "name": "Rustic Bronze Wall Mirror",
+                    "category": "5b029a6096a1324d4c54aae2",
+                    "subcategory": "5b02a5fc96a1324d4c54ab4b",
+                    "vertical": "5b1e041c8132e3467406f76a",
+                    "createdAt": "2018-11-28T11:46:32.060Z",
+                    "updatedAt": "2018-11-28T13:40:07.182Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.01235999,
+                        "y": 0.8715982,
+                        "z": 2.945187
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b7f",
+                "asset": {
+                    "price": {
+                        "customer": 27.99,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Wayfair",
+                        "organization": "",
+                        "organizationInternalLink": "5b756a993f600d5793cada57",
+                        "productUrl": "https://www.wayfair.com/decor-pillows/pdp/east-urban-home-bird-painting-print-on-canvas-eshm1878.html"
+                    },
+                    "dimension": {
+                        "depth": 0.12,
+                        "width": 0.91,
+                        "height": 1.16
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5bfe5d53bf05724c0cedcd35",
+                    "name": "Bird Painting Print on Canvas",
+                    "category": "5b029ab396a1324d4c54aae4",
+                    "subcategory": "5b211f8c68fc51239c19c871",
+                    "vertical": "5b2120bd68fc51239c19c888",
+                    "createdAt": "2018-11-28T09:18:11.993Z",
+                    "updatedAt": "2018-11-28T13:25:58.669Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0.1434657,
+                        "y": 0.0127,
+                        "z": 0.1593233
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 90,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b80",
+                "asset": {
+                    "price": {
+                        "customer": 1399,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "Arhaus",
+                        "organization": "",
+                        "organizationInternalLink": "5c18b7086126890722f5fddf",
+                        "productUrl": "https://www.arhaus.com/furniture/living-room-furniture/coffee-tables-and-trunks/acero-coffee-table/?CustomVariant1=RECT59&amp;"
+                    },
+                    "dimension": {
+                        "depth": 3.44,
+                        "width": 4.92,
+                        "height": 1.73
+                    },
+                    "currency": "USD",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c11193fb207e30c43207e5a",
+                    "name": "Acero coffee table",
+                    "category": "5b029a3896a1324d4c54aae0",
+                    "subcategory": "5b029bc796a1324d4c54aae7",
+                    "vertical": "5b029df996a1324d4c54ab01",
+                    "createdAt": "2018-12-12T14:20:47.095Z",
+                    "updatedAt": "2018-12-18T11:40:28.821Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.342777,
+                        "y": 1.201533,
+                        "z": 0.7623306
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 90,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b81",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.HomeFuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c208c369222900fd2b79852",
+                    "name": "Wood Gallery in a Box frames",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-24T07:35:18.445Z",
+                    "updatedAt": "2018-12-24T07:35:23.564Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b82",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c23aeb77fd7f05462a60061",
+                    "name": "Jenny Lind Grey Table lamp",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-26T16:39:19.037Z",
+                    "updatedAt": "2018-12-26T16:39:33.397Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 1.408272,
+                        "y": 0.0127,
+                        "z": -1.32186
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b83",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c1fa0f59222900fd2b77310",
+                    "name": "Tropez Faux End Table",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-23T14:51:33.240Z",
+                    "updatedAt": "2018-12-23T14:51:38.333Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 3.086394,
+                        "y": 0.03035128,
+                        "z": 2.699815
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b84",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1d29719222900fd2b76ea8",
+                    "name": "Indoor Plant 1",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-21T17:57:05.450Z",
+                    "updatedAt": "2018-12-27T11:42:42.753Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 1.741139,
+                        "y": 0.01270002,
+                        "z": -2.566897
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    }
+                },
+                "autoRotate": false,
+                "inuse": true,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b85",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b7670853f600d5793cadf64",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "wall",
+                    "_id": "5c1d2c599222900fd2b76ea9",
+                    "name": "Indoor Plant 2",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-21T18:09:29.980Z",
+                    "updatedAt": "2019-01-07T07:03:23.494Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            },
+            {
+                "transform": {
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "rotation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "scale": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }
+                },
+                "autoRotate": false,
+                "inuse": false,
+                "invoice": false,
+                "like": false,
+                "dislike": false,
+                "_id": "5c24b89b7fd7f05462a62b86",
+                "asset": {
+                    "price": {
+                        "customer": 0,
+                        "vendor": null
+                    },
+                    "designedBy": {
+                        "name": "",
+                        "organization": "",
+                        "organizationInternalLink": "5b78424b3f600d5793cae5c5",
+                        "productUrl": "www.Homefuly.com"
+                    },
+                    "dimension": {
+                        "depth": 0.08,
+                        "width": 0.08,
+                        "height": 0.08
+                    },
+                    "currency": "INR",
+                    "glossy": false,
+                    "mountType": "floor",
+                    "_id": "5c17a5836126890722f5f435",
+                    "name": "Floor Lamp",
+                    "category": "5ba23435e852e80dad11b653",
+                    "subcategory": "5ba4a959f120bf1cd051519f",
+                    "vertical": "5ba4a964f120bf1cd05151a0",
+                    "createdAt": "2018-12-17T13:32:51.091Z",
+                    "updatedAt": "2018-12-17T13:33:08.861Z"
+                },
+                "meta": {
+                    "chats": []
+                }
+            }
+        ],
+        "chats": [],
+        "room": "5c1a0c206126890722f61333",
+        "createdAt": "2018-12-19T09:16:01.236Z",
+        "updatedAt": "2019-01-04T07:45:46.147Z",
+        "__v": 61
+    },
+    "message": null
+}

@@ -1,3 +1,4 @@
+### Global arrays
 
 ## Constant fields
 brands = ['Wayfair', 'Joss And Main', 'CB2', 'West Elm', 'Crate And Barrel',
@@ -7,6 +8,9 @@ brands = ['Wayfair', 'Joss And Main', 'CB2', 'West Elm', 'Crate And Barrel',
 themes = ['Modern', 'Industrial', 'CONTEMPORARY', 'TRANSITIONAL', 'ART DECO', 'Indian', 'Indian Contemporary',
           'Bohemian', 'Scandinavian', 'ECCENTRIC / ECLECTIC', 'COASTAL CASUAL', 'Hollywood Regency',
           'SHABBY-CHIC', 'Mid Century', 'Traditional', 'MINIMALIST', 'RUSTIC']
+
+categories = ['Furniture', 'Furnishing', 'Decor', 'Lighting', 'Wall Art', 'Appliances', 'Outdoor',
+              'Others', 'Non Shoppable']
 
 ## Desired count of each item subcategory
 ## mapped for Master Bedroom
@@ -57,10 +61,13 @@ desired_qty = {
             'Windows':1
         }
 
+## Necessary subcategories for Master Bedroom & Living Room
+room_type_fit = {}
+room_type_fit['Master Bedroom'] = ['Beds', 'Bedsheets', 'Mirrors', 'Dressers', 'Wardrobes', 'Lights', 'Curtains']
+room_type_fit['Living Room'] = ['Sofas', 'TV Units', 'Lights', 'Shoe Racks', 'Door Mats', 'Display Units', 'Cushions', 'Curtains']
+
 ## Subcategories for 1 persona - Young Couple
 user_persona_fit = ['Beds', 'Dressers', 'Tables', 'Display Units', 'Bedsheets', 'Chairs', 'Wardrobes']
 
-## Subcategories for Master Bedroom & Living Room
-room_type_fit = {}
-room_type_fit['Master Bedroom'] = ['Beds', 'Bedsheets', 'Door Mats', 'Mirrors', 'Dressers', 'Wardrobes', 'Display Units', 'Drawers', 'Lights', 'Curtains']
-room_type_fit['Living Room'] = ['Sofas', 'TV Units', 'Lights', 'Shoe Racks', 'Door Mats', 'Display Units', 'Cushions', 'Drawers', 'Curtains']
+## As per USER input json
+user_mandatory_assets = [['Beds', 1], ['Dressers',1], ['Wardrobes',1], ['Display Units',1]]

@@ -3,12 +3,13 @@
 class Asset:
 
     # Product features
-    __slots__ = ('_name', '_category', '_subcategory', '_vertical', '_price',
+    __slots__ = ('_id', '_name', '_category', '_subcategory', '_vertical', '_price',
                  '_dimension', '_theme', '_brand', '_room_fit')
     
-    def __init__(self, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
+    def __init__(self, asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
                 asset_dimension, asset_theme, asset_brand, asset_room_fit):
         
+        self._id = asset_id
         self._name = asset_name
         self._category = asset_category
         self._subcategory = asset_subcategory

@@ -79,6 +79,9 @@ for asset in assets_json['data']['assets']:
     # name
     asset_name = asset['name']
 
+    # id
+    asset_id = asset['_id']
+
     # Create asset
     if asset_subcategory != '' and asset_category != 'Non Shoppable':
 
@@ -86,13 +89,13 @@ for asset in assets_json['data']['assets']:
         
             if asset_dimension['width'] <= 10 and asset_dimension['depth'] <= 10:
             
-                asset_data[i] = Asset(asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
+                asset_data[i] = Asset(asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
                                   asset_dimension, asset_theme, asset_brand, asset_room_fit)
-                #print [asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
-                #       asset_dimension, asset_theme, asset_brand, asset_room_fit]
+                print [asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
+                       asset_dimension, asset_theme, asset_brand, asset_room_fit]
                 i += 1
 print i
 
 ## dump asset data to pickle file
-with open('data/asset_list', 'wb') as fp:
-    pickle.dump(asset_data, fp)
+#with open('data/asset_list', 'wb') as fp:
+#    pickle.dump(asset_data, fp)
