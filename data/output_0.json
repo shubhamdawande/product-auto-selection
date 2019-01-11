@@ -1,0 +1,482 @@
+{
+    "chats": [],
+    "description": "for checking assets from auto selector",
+    "viewpoint": [],
+    "room": "5c360388e5194c32118ba33c",
+    "assets": [
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        },
+        {
+            "like": false,
+            "inuse": true,
+            "autoRotate": false,
+            "transform": {
+                "position": {
+                    "y": 0.09344709,
+                    "x": 0.7380692,
+                    "z": 2.066705
+                },
+                "rotation": {
+                    "y": 180,
+                    "x": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "y": 1,
+                    "x": 1,
+                    "z": 1
+                }
+            },
+            "meta": {
+                "chats": []
+            },
+            "asset": "5b8508f2d2024470fd8fa40b",
+            "invoice": true,
+            "dislike": false,
+            "_id": "5c2378c97fd7f05462a5e788"
+        }
+    ],
+    "lock": false,
+    "updatedAt": "2018-12-24T10:26:48.830Z",
+    "paint": [
+        {
+            "wall": "wall_3",
+            "adjust": {
+                "repeat": 0
+            },
+            "wallfinish": "5b06955abb96c34910af171d",
+            "_id": "5c2378c97fd7f05462a5e824"
+        },
+        {
+            "wall": "wall_2",
+            "adjust": {
+                "repeat": 0
+            },
+            "wallfinish": "5b06955abb96c34910af171d",
+            "_id": "5c2378c97fd7f05462a5e823"
+        }
+    ],
+    "camera": {
+        "position": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+        },
+        "rotation": {
+            "y": 178,
+            "x": 2,
+            "z": 70
+        },
+        "scale": {
+            "y": 0,
+            "x": 0,
+            "z": 0
+        }
+    },
+    "viewPoints": [
+        {
+            "position": {
+                "y": 1.3,
+                "x": -0.7965264,
+                "z": -2.019067
+            },
+            "rotation": {
+                "y": 0,
+                "x": 2,
+                "z": 70
+            },
+            "_id": "5c2378c97fd7f05462a5e827",
+            "scale": {
+                "y": 1,
+                "x": 1,
+                "z": 1
+            }
+        },
+        {
+            "position": {
+                "y": 1.3,
+                "x": 2.315337,
+                "z": 0.6373027
+            },
+            "rotation": {
+                "y": 266,
+                "x": 2,
+                "z": 70
+            },
+            "_id": "5c2378c97fd7f05462a5e826",
+            "scale": {
+                "y": 1,
+                "x": 1,
+                "z": 1
+            }
+        },
+        {
+            "position": {
+                "y": 1.3,
+                "x": 2.248947,
+                "z": -1.810104
+            },
+            "rotation": {
+                "y": 311.1654,
+                "x": 2,
+                "z": 70
+            },
+            "_id": "5c2378c97fd7f05462a5e825",
+            "scale": {
+                "y": 1,
+                "x": 1,
+                "z": 1
+            }
+        }
+    ],
+    "__v": 0,
+    "demo": true,
+    "createdAt": "2018-12-24T10:26:48.830Z",
+    "name": "Master Bedroom Test"
+}

@@ -2,6 +2,7 @@ import pickle
 import pulp as pl
 from globals import *
 import copy
+from utilities import save_to_json
 
 ## Assets database as per asset json
 with open('data/asset_list', 'rb') as fp:
@@ -187,7 +188,7 @@ while count >= 0:
             print '%22s' % asset_data[index]._subcategory + " / " + '%25s' % asset_data[index]._name + " / " + '%s' % asset_data[index]._price + " $$ / " + '%s' % asset_data[index]._theme + " / " + '%s' % asset_data[index]._brand + " / " + "Qty: " + '%d' % v.varValue + " / " + "value:", val_array[index]
             
             # dump HSN sets for writing to json
-            hsn_set = [asset_data[i]._id, v.varValue, val_array[index]]
+            hsn_set.append([asset_data[i]._id, v.varValue, val_array[index]])
 
             # decrease the value of asset for furthur hsn sets if already some set includes it
             term_repeatable = wghts[5]
@@ -220,11 +221,7 @@ while count >= 0:
         
         val_array_new[i] += term_category
         
-        try:
-            total_val1 += (val_array_new[i] * indicator[i])
-            #print "SUCCESS"
-        except:
-            print "FAIL"
+        total_val1 += (val_array_new[i] * indicator[i])
 
     idx += 1
     prob.setObjective(total_val1 + total_val2)
@@ -248,12 +245,12 @@ while count >= 0:
             print '%10s' % asset_data[index]._category + " / " + '%20s' % asset_data[index]._subcategory + " / " + '%25s' % asset_data[index]._name + " / " + '%s' % asset_data[index]._price + " $$ / " + '%s' % asset_data[index]._theme + " / " + '%s' % asset_data[index]._brand + " / " + "Qty: " + '%d' % v.varValue + " / " + "value:", val_array[index]
 
             # dump HSN sets for writing to json
-            hsn_set = [asset_data[i]._id, v.varValue, val_array[index]]
+            hsn_set.append([asset_data[i]._id, v.varValue, val_array[index]])
 
-    hsn_out_list.append([asset_data[i]._id, v.varValue, val_array[index]])
+    hsn_out_list.append(hsn_set)
     print "Final value: ", final_val, "Final price: ", final_price, "Final_area: ", final_area
     print ""
     count -= 1
 
 ## Write output to JSON
-#save_json(hsn_out_list)
+save_to_json(hsn_out_list)
