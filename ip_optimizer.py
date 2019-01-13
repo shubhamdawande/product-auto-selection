@@ -27,7 +27,7 @@ print 'theme_preference: ', theme_preference
 
 ## Hyperparameters
 ## Weights: [theme, brand, mandatory room asset wght, room compat, user compat, category bias, asset repeat penalty]
-wghts = [3.0, 1.5, 7.0, 2.0, 1.2, 10.0, -1.5]
+wghts = [3.0, 1.5, 7.0, 2.0, 1.2, 10.0, -0.5]
 
 print("Forming the MILP problem....")
 prob = pl.LpProblem("The Budget Optimization Problem", pl.LpMaximize)
