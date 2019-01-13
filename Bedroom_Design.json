@@ -23,7 +23,6 @@
         }
     },
     "viewpoint": [],
-    "_id": "5c20b4689222900fd2b7a4bf",
     "name": "Contemporary",
     "paint": [
     {
@@ -5146,8 +5145,5 @@
         }
     }],
     "chats": [],
-    "room": "5c20b43b9222900fd2b7a4bd",
-    "createdAt": "2018-12-24T10:26:48.830Z",
-    "updatedAt": "2019-01-04T07:45:16.761Z",
-    "__v": 6
+    "room": "5c360388e5194c32118ba33c"
 }

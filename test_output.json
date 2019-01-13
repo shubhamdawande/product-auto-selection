@@ -18,9 +18,8 @@
             "z": 0
         }
     },
-    "_id": "5c37342ae5194c32118bacac",
     "name": "Master Bedroom Test",
-    "description": "for checking asset locations",
+    "description": "for checking assets from auto selector",
     "viewpoint": [],
     "paint": [
         {
@@ -650,8 +649,5 @@
         }
     ],
     "chats": [],
-    "room": "5c371209e5194c32118babca",
-    "createdAt": "2018-12-24T10:26:48.830Z",
-    "updatedAt": "2018-12-24T10:26:48.830Z",
-    "__v": 0
+    "room": "5c371209e5194c32118babca"
 }
