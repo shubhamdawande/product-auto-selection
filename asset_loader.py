@@ -4,7 +4,7 @@ from asset import Asset
 import pickle
 
 ## load asset categories
-with open("categorys.json", "r") as read_file:
+with open("input_data/categorys.json", "r") as read_file:
    asset_categorys_json = json.loads(read_file.read())
 
 asset_type = {} # type id : type name
@@ -17,9 +17,11 @@ for category in asset_categorys_json['data']['asset_categorys']:
         for vertical in subcategory['verticals']:
             asset_type[vertical['_id']] = vertical['name']
 
+with open('dumps/asset_categories', 'wb') as fp:
+    pickle.dump(asset_type, fp)
 
 ## load asset database
-with open("assets.json", "r") as read_file:
+with open("input_data/assets.json", "r") as read_file:
     assets_json = json.loads(read_file.read())
 
 asset_data = {} # asset info list
@@ -35,7 +37,7 @@ for asset in assets_json['data']['assets']:
     if 'customer' in asset['price']:
         asset_price = asset['price']['customer']
     else:
-        asset_price = 0
+        continue
 
     if asset['currency'] == 'INR' and asset_price != None:
         asset_price /= 65
@@ -49,7 +51,7 @@ for asset in assets_json['data']['assets']:
     if asset['subcategory'] != '':
         asset_subcategory = asset_type[asset['subcategory']]
     else:
-        asset_subcategory = ''
+        continue
         
     # verticals
     if asset['vertical'] != '':
@@ -69,7 +71,7 @@ for asset in assets_json['data']['assets']:
         if 'organizationInternalLink' in asset_brand:
             asset_brand = asset['designedBy']['organizationInternalLink']['name']
         else:
-            asset_brand = ''
+            continue
 
     # room fit
     asset_room_fit = asset['roomType']
@@ -83,19 +85,21 @@ for asset in assets_json['data']['assets']:
     asset_id = asset['_id']
 
     # Create asset
-    if asset_subcategory != '' and asset_category != 'Non Shoppable':
+    if asset_category != 'Non Shoppable':
 
-        if asset_price != None and asset_theme != None and asset_room_fit != None and asset_brand != '':
+        if asset_price != None and asset_theme != None and asset_room_fit != None:
         
-            if asset_dimension['width'] <= 10 and asset_dimension['depth'] <= 10:
-            
-                asset_data[i] = Asset(asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
+            if asset_dimension['width'] <= 10 and asset_dimension['depth'] <= 10 and asset_dimension['height'] < 8:
+                
+                if asset_price > 0:
+
+                    asset_data[i] = Asset(asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
                                   asset_dimension, asset_theme, asset_brand, asset_room_fit)
-                print [asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
-                       asset_dimension, asset_theme, asset_brand, asset_room_fit]
-                i += 1
+                    #print [asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
+                    #   asset_dimension, asset_theme, asset_brand, asset_room_fit]
+                    i += 1
 print i
 
 ## dump asset data to pickle file
-#with open('data/asset_list', 'wb') as fp:
-#    pickle.dump(asset_data, fp)
+with open('dumps/asset_database', 'wb') as fp:
+    pickle.dump(asset_data, fp)

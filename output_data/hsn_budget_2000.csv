@@ -1,0 +1,168 @@
+Name,Vertical,Subcategory,Category,Theme,Brand,Price,QTY,Asset Value
+""
+Customer Req=>
+budget:,2000
+persona:,Young Couple
+room_type:,Master Bedroom
+room_area:,300
+brand_preference:,"['Wayfair', 'West Elm', 'Crate And Barrel', 'Pottery Barn']"
+theme_preference:,"['Hollywood Regency', 'COASTAL CASUAL']"
+user_defined_assets:,"[['Beds', 1], ['Mirrors', 1], ['Cushions', 4]]"
+""
+SET 0
+Distressed Rug Pillow Covers,Pillow Covers,Cushions,Furnishing,Modern,West Elm,24,1.0,2.6666666666666665
+Bird Painting Print on Canvas,abstract paintings,paintings,Wall Art,Mid Century,Wayfair,27.99,5.0,2.3095238095238093
+Rowling Chair Navy,Accent Chairs,Chairs,Furniture,CONTEMPORARY,Casaone,19,3.0,2.142857142857143
+Abbott 5 Drawer Chest,Chest of Drawers,Drawers,Furniture,Industrial,Casaone,42,4.0,2.3333333333333335
+Abbott 2 Drawer Nightstand,Bedside Tables,Tables,Furniture,Industrial,Casaone,18,2.0,2.5
+Turquoise Pillow,Pillows,Cushions,Furnishing,COASTAL CASUAL,Casaone,11,3.0,2.642857142857143
+Cobalt Lg Vase Blue,Vases,Vases,Decor,Modern,Casaone,10,1.0,1.9761904761904763
+Puget Sofa,sofa sets,Sofas,Furniture,Modern,Casaone,64,1.0,1.9761904761904763
+Mini Squares Mirror Antique,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Casaone,22,1.0,2.642857142857143
+Taylor Platform Bed,Queen Sized Beds,Beds,Furniture,CONTEMPORARY,Casaone,32,1.0,2.142857142857143
+Whitney TV Stand for TVs up to 48,TV Units,TV Units,Furniture,Mid Century,Wayfair,79.99,1.0,2.3095238095238093
+8X10 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,Hollywood Regency,Restoration Hardware,109,5.0,2.642857142857143
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,2.3095238095238093
+Picture Ledge Wall Shelf,Wall Shelves,Display Units,Furniture,Scandinavian,Wayfair,31.99,3.0,2.4761904761904763
+Metal Amillary Sculpture,showpieces,Curios and showpieces,Decor,Industrial,Wayfair,30,2.0,2.3095238095238093
+Bainbridge Side Chair,Dining Chairs,Dining,Furniture,Hollywood Regency,Wayfair,7.999692307692308,1.0,2.9761904761904763
+Alexus Floral Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,31.99,2.0,2.9761904761904763
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,1.0,2.9761904761904763
+Crushed Sheer curtain,Window Curtains,Curtains,Furnishing,MINIMALIST,Wayfair,10,3.0,2.3095238095238093
+Quiet Moments Canvas,floral art panels,art panels,Wall Art,Modern,Wayfair,36,1.0,2.3095238095238093
+Decorative Wood Ship Wheel,metal wall art,wall accents,Wall Art,COASTAL CASUAL,Wayfair,52.87,2.0,2.9761904761904763
+Ariana Table Lamp Black,Table Lamps,Lamps,Lighting,Modern,Wayfair,12.285,2.0,2.6666666666666665
+Aluminium Hanging Light (short),Hanging Lights,Lights,Lighting,CONTEMPORARY,Pepperfry,19,3.0,2.8333333333333335
+Bohemian Feather V Painting,floral art panels,art panels,Wall Art,Bohemian,Wayfair,36.99,1.0,2.3095238095238093
+Massaoud Area Rug,Wool Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,35.49,2.0,2.6666666666666665
+final_val: ,130,final_price: ,1999,final_area: ,147
+""
+SET 1
+Nature's Palette II,Landscape Art Panels,art panels,Wall Art,RUSTIC,Wayfair,39,2.0,2.3095238095238093
+Bird Painting Print on Canvas,abstract paintings,paintings,Wall Art,Mid Century,Wayfair,27.99,4.0,1.8095238095238093
+Rowling Chair Navy,Accent Chairs,Chairs,Furniture,CONTEMPORARY,Casaone,19,1.0,1.6428571428571428
+Step Table Lamp,Table Lamps,Lamps,Lighting,CONTEMPORARY,Casaone,11,2.0,2.3333333333333335
+Abbott 5 Drawer Chest,Chest of Drawers,Drawers,Furniture,Industrial,Casaone,42,4.0,1.8333333333333335
+"Whitney TV Stand for TVs up to 48""",TV Units,TV Units,Furniture,Mid Century,Wayfair,83.99,1.0,2.3095238095238093
+Blue Reef Pillow Blue & White,Pillows,Cushions,Furnishing,COASTAL CASUAL,Casaone,12,4.0,2.642857142857143
+Puget Sofa,sofa sets,Sofas,Furniture,Modern,Casaone,64,1.0,1.4761904761904763
+Blanca Wall Decor Antique-1,metal wall art,wall accents,Wall Art,RUSTIC,Casaone,8.5,2.0,1.9761904761904763
+Taylor Platform Bed,Queen Sized Beds,Beds,Furniture,CONTEMPORARY,Casaone,32,1.0,1.6428571428571428
+Shaman Side Table,Nested Tables,Tables,Furniture,Modern,Casaone,26,2.0,2.142857142857143
+4X6 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,RUSTIC,Restoration Hardware,79,5.0,1.9761904761904763
+Bainbridge Side Chair,Dining Chairs,Dining,Furniture,Hollywood Regency,Wayfair,7.999692307692308,1.0,2.4761904761904763
+Cara Composite Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,38.98,2.0,2.9761904761904763
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,2.0,2.4761904761904763
+Crushed Sheer curtain,Window Curtains,Curtains,Furnishing,MINIMALIST,Wayfair,10,3.0,1.8095238095238093
+August Mid-Back Desk Chair,Office Chairs,Chairs,Furniture,COASTAL CASUAL,Wayfair,112.99,2.0,3.142857142857143
+Rounding the Mark Painting,still life paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,79.99,1.0,2.642857142857143
+Mcnichols Mirror,Wall Mirrors,Mirrors,Decor,CONTEMPORARY,Wayfair,64,1.0,3.1666666666666665
+Aluminium Hanging Light,Hanging Lights,Lights,Lighting,CONTEMPORARY,Pepperfry,19,3.0,2.8333333333333335
+Edolie Area Rug,Synthetic Carpets,Carpets & Rugs,Furnishing,ART DECO,Wayfair,14.59,2.0,2.3095238095238093
+Wall Mounted Wine Rack,Wall Shelves,Display Units,Furniture,Industrial,Wayfair,37.99,3.0,2.4761904761904763
+Metal Medallion Sculpture,showpieces,Curios and showpieces,Decor,Modern,Wayfair,40.99,2.0,2.3095238095238093
+final_val: ,115,final_price: ,1999,final_area: ,178
+""
+SET 2
+Pressed Velvet Pillow Covers,Pillow Covers,Cushions,Furnishing,TRANSITIONAL,West Elm,29,1.0,2.6666666666666665
+Luxton Swoop Armchair,Accent Chairs,Chairs,Furniture,Hollywood Regency,Wayfair,141.99,1.0,3.5
+Rowling Chair Navy,Accent Chairs,Chairs,Furniture,CONTEMPORARY,Casaone,19,2.0,1.1428571428571428
+Abbott 5 Drawer Chest,Chest of Drawers,Drawers,Furniture,Industrial,Casaone,42,4.0,1.3333333333333335
+Abbott 2 Drawer Nightstand,Bedside Tables,Tables,Furniture,Industrial,Casaone,18,2.0,2.0
+Cement Flower Planter Green And Yellow,planters,pots & planters,Decor,ECCENTRIC / ECLECTIC,Casaone,0.25,2.0,1.9761904761904763
+Cobalt Lg Vase Blue,Vases,Vases,Decor,Modern,Casaone,10,2.0,1.4761904761904763
+Lessing Rug Natural,Wool Carpets,Carpets & Rugs,Furnishing,COASTAL CASUAL,Casaone,26,1.0,2.642857142857143
+Mini Squares Mirror Antique,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Casaone,22,1.0,2.142857142857143
+Spring Wall Decor Antique,metal wall art,wall accents,Wall Art,Mid Century,Casaone,15.05,2.0,1.9761904761904763
+Taylor Platform Bed,Queen Sized Beds,Beds,Furniture,CONTEMPORARY,Casaone,32,1.0,1.1428571428571428
+Whitney TV Stand for TVs up to 48,TV Units,TV Units,Furniture,Mid Century,Wayfair,79.99,1.0,1.8095238095238093
+5X7 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,RUSTIC,Restoration Hardware,89,5.0,1.9761904761904763
+Cotton Pillow Cover,Pillow Covers,Cushions,Furnishing,Industrial,Joss And Main,10.99,3.0,2.3333333333333335
+Metal Amillary Sculpture,showpieces,Curios and showpieces,Decor,Industrial,Wayfair,30,2.0,1.8095238095238093
+Harley Motorcycle Canvas,transport art panels,art panels,Wall Art,Industrial,Wayfair,40,2.0,2.3095238095238093
+Bainbridge Side Chair,Dining Chairs,Dining,Furniture,Hollywood Regency,Wayfair,7.999692307692308,1.0,1.9761904761904763
+Sailboats at Sunrise Print,landscape paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,90.99,5.0,2.642857142857143
+Crushed Sheer curtain,Window Curtains,Curtains,Furnishing,MINIMALIST,Wayfair,10,3.0,1.3095238095238093
+Ariana Table Lamp Black,Table Lamps,Lamps,Lighting,Modern,Wayfair,12.285,2.0,2.1666666666666665
+Aluminium Hanging Light (short),Hanging Lights,Lights,Lighting,CONTEMPORARY,Pepperfry,19,3.0,2.3333333333333335
+Massaoud Area Rug,Wool Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,35.49,1.0,2.1666666666666665
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,2.4761904761904763
+final_val: ,101,final_price: ,1989,final_area: ,170
+""
+SET 3
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,5.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,0.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,4.0,0.8333333333333335
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.5
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,4.0,2.142857142857143
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,0.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,0.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,0.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,2.142857142857143
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,1.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,2.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,0.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,2.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.6666666666666665
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,1.8333333333333335
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.6666666666666665
+final_val: ,81,final_price: ,1994,final_area: ,150
+""
+SET 4
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,5.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,0.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,4.0,0.8333333333333335
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.5
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,4.0,2.142857142857143
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,0.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,0.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,0.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,2.142857142857143
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,1.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,2.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,0.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,2.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.6666666666666665
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,1.8333333333333335
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.6666666666666665
+final_val: ,81,final_price: ,1994,final_area: ,150
+""
+SET 5
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,5.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,0.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,4.0,0.8333333333333335
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.5
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,4.0,2.142857142857143
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,0.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,0.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,0.6428571428571428
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,2.142857142857143
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,1.9761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.3095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,1.0,1.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,2.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,0.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.8095238095238093
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,2.4761904761904763
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.6666666666666665
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,3.0,1.8333333333333335
+Evonne Floating Shelf,Wall Shelves,Display Units,Furniture,RUSTIC,Wayfair,46,2.0,1.6666666666666665
+final_val: ,81,final_price: ,1994,final_area: ,150

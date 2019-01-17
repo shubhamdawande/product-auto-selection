@@ -1,0 +1,14 @@
+features to be implemented:
+
+### Some item type i user has already available and are retained
+prob += subcategory_wise_qty[i] == 0
+
+### custom modifications from user through the app
+# case 1. user removed item of type 'beds'
+#prob += subcategory_wise_qty['Beds'] == 0
+
+# case 2. removed item of theme 'Industrial'
+#prob += subcategory_to_themes['Display Units']['Industrial'] == 0
+
+# case 3. removed item of brand 'Pepperfry'
+#prob += subcategory_to_brands['Display Units']['Pepperfry'] == 0
