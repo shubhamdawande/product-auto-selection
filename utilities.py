@@ -2,16 +2,18 @@ import json
 import copy
 import random
 import pickle
+import requests
+from globals import *
 
 ## routine to write data in json format
 def save_to_json(hsn_list, asset_data, room_id):
     
     # demo design version
-    ver = 1 
+    ver = 0
 
     # read and save demo layout transforms
-    if True:
-        read_design_json(ver)
+    if False:
+        read_design_json()
     
     # JSON: read pre defined design json format
     with open("input_data/MasterBedroom_demo_design_%d.json"%ver, "r") as read_file:
@@ -72,29 +74,39 @@ def save_to_json(hsn_list, asset_data, room_id):
         i += 1
 
 ## To get reference positions for optimal design layout
-def read_design_json(ver):
+def read_design_json():
     
     # PICKLE: get asset categories
     with open('dumps/asset_categories', 'rb') as fp:
         asset_categories = pickle.load(fp)
 
-    # JSON: demo design for layout asset positions
-    with open("input_data/MasterBedroom_demo_design_%d.json"%ver, "r") as read_file:
-            data = json.load(read_file)
-    
-    layout_positions = {}
-    assets = data['assets']
-    
-    for asset in assets:
-        if asset['inuse']:
-            transform = asset['transform']
-            subcategory = asset_categories[asset['asset']['subcategory']]
-            if subcategory in layout_positions:
-                layout_positions[subcategory].append(transform)
-            else:
-                layout_positions[subcategory] = []
-                layout_positions[subcategory].append(transform)
+    demo_design_ids = ['5c3d8aa8e9e71d280db86dab']
 
-    # PICKLE
-    with open('dumps/layout_positions_MasterBedroom_%s'%ver, 'wb') as fp:
-        pickle.dump(layout_positions, fp)
+    # 3 demo design layouts
+    for i in range(0,len(demo_design_ids)):
+    
+        # JSON: demo design for layout asset positions
+        print 'Fetching demo design from server...'
+        response = requests.get("https://homefuly.com:3443/api/organization/" + org_id +"/project/" + proj_id +"/room/" + room_id +"/version/" + demo_design_ids[i], headers=header)
+        
+        if response.json().get('status') == 'success':
+            data = response.json().get('data')
+            with open("input_data/MasterBedroom_demo_design_%d.json"%i, "wb") as write_file:
+                json.dump(data, write_file)
+        
+        layout_positions = {}
+        assets = data['assets']
+        
+        for asset in assets:
+            if asset['inuse']:
+                transform = asset['transform']
+                subcategory = asset_categories[asset['asset']['subcategory']]
+                if subcategory in layout_positions:
+                    layout_positions[subcategory].append(transform)
+                else:
+                    layout_positions[subcategory] = []
+                    layout_positions[subcategory].append(transform)
+
+        # PICKLE
+        with open('dumps/layout_positions_MasterBedroom_%s'%i, 'wb') as fp:
+            pickle.dump(layout_positions, fp)

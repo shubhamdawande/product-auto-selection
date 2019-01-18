@@ -2,13 +2,32 @@ import json
 import pprint
 from asset import Asset
 import pickle
+from globals import *
+import requests
+import re
 
-## load asset categories
-with open("input_data/categorys.json", "r") as read_file:
-   asset_categorys_json = json.loads(read_file.read())
+############### Retrieve asset and categories from server ################
+if fetch_assets_from_server:
+    response = requests.get("https://homefuly.com:3443/api/assets?limit=2078", headers=header)
+    assets_json = response.json().get('data')
+    with open("input_data/assets.json", "wb") as write_file:
+        json.dump(assets_json, write_file)
 
-asset_type = {} # type id : type name
-for category in asset_categorys_json['data']['asset_categorys']:
+    response = requests.get("https://homefuly.com:3443/api/asset_categorys", headers=header)
+    asset_categorys_json = response.json().get('data')
+    with open("input_data/categorys.json", "wb") as write_file:
+        json.dumps(asset_categorys_json, write_file)
+else:
+    with open("input_data/categorys.json", "r") as read_file:
+        asset_categorys_json = json.loads(read_file.read())
+
+    with open("input_data/assets.json", "r") as read_file:
+        assets_json = json.loads(read_file.read())
+
+# format = { type id : type name }
+asset_type = {}
+
+for category in asset_categorys_json['asset_categorys']:
     asset_type[category['_id']] = category['name']
     
     for subcategory in category['subcategories']:
@@ -17,21 +36,22 @@ for category in asset_categorys_json['data']['asset_categorys']:
         for vertical in subcategory['verticals']:
             asset_type[vertical['_id']] = vertical['name']
 
+# PICKLE
 with open('dumps/asset_categories', 'wb') as fp:
     pickle.dump(asset_type, fp)
 
-## load asset database
-with open("input_data/assets.json", "r") as read_file:
-    assets_json = json.loads(read_file.read())
-
-asset_data = {} # asset info list
-asset_count = assets_json['data']['count']
+# asset info list
+asset_data = {} 
+asset_count = assets_json['count']
 i = 0
 
-for asset in assets_json['data']['assets']:
+for asset in assets_json['assets']:
 
     # categories 
-    asset_category = asset_type[asset['category']]
+    if asset['category'] != '':
+        asset_category = asset_type[asset['category']]
+    else:
+        continue
 
     # price
     if 'customer' in asset['price']:
@@ -40,16 +60,19 @@ for asset in assets_json['data']['assets']:
         continue
 
     if asset['currency'] == 'INR' and asset_price != None:
-        asset_price /= 65
+        asset_price *= 0.014
     
     # dimension
     if 'dimension' in asset:
         d = asset['dimension']
         asset_dimension = { 'depth' : d['depth'], 'width' : d['width'], 'height' : d['height']}
-        
+    
     # subcategories
     if asset['subcategory'] != '':
-        asset_subcategory = asset_type[asset['subcategory']]
+        if asset['subcategory'] in asset_type:
+            asset_subcategory = asset_type[asset['subcategory']]
+        else:
+            continue
     else:
         continue
         
@@ -69,7 +92,10 @@ for asset in assets_json['data']['assets']:
     #print asset_brand
     if asset_brand != '':
         if 'organizationInternalLink' in asset_brand:
-            asset_brand = asset['designedBy']['organizationInternalLink']['name']
+            if asset_brand['organizationInternalLink'] != None:
+                asset_brand = asset['designedBy']['organizationInternalLink']['name']
+            else:
+                continue
         else:
             continue
 
@@ -91,12 +117,13 @@ for asset in assets_json['data']['assets']:
         
             if asset_dimension['width'] <= 10 and asset_dimension['depth'] <= 10 and asset_dimension['height'] < 8:
                 
-                if asset_price > 0:
+                if asset_price > 0 and asset_brand in brands and asset_theme in themes:
 
+                    asset_name = re.sub('[^a-zA-Z0-9 \n\.]', '', asset_name)
                     asset_data[i] = Asset(asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
                                   asset_dimension, asset_theme, asset_brand, asset_room_fit)
-                    #print [asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
-                    #   asset_dimension, asset_theme, asset_brand, asset_room_fit]
+                    #print [asset_category, asset_subcategory, asset_vertical, asset_name, asset_price,
+                    #       asset_dimension, asset_theme, asset_brand, asset_room_fit]
                     i += 1
 print i
 

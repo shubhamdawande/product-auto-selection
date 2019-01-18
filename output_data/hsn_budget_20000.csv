@@ -1,0 +1,192 @@
+Name,Vertical,Subcategory,Category,Theme,Brand,Price,QTY,Asset Value
+""
+Customer Req=>
+budget:,20000
+persona:,Young Couple
+room_type:,Master Bedroom
+room_area:,300
+brand_preference:,"['Wayfair', 'West Elm', 'Crate And Barrel', 'Pottery Barn']"
+theme_preference:,"['Hollywood Regency', 'COASTAL CASUAL']"
+user_defined_assets:,"[['Beds', 1], ['Curtains', 1], ['Cushions', 4]]"
+user_retained_assets:,[]
+""
+SET 0
+Annaelle Quilted Cotton Throw,throws,throws,Furnishing,Bohemian,Wayfair,33.99,1.0,1.726190476190476
+Chicago Parsons Chair Dark Gray Fabric,Accent Chairs,Chairs,Furniture,Hollywood Regency,Wayfair,149.99,2.0,3.3333333333333335
+Philipston 2 Drawer NightstandFrench Gray,Bedside Tables,Tables,Furniture,COASTAL CASUAL,Wayfair,132.99,2.0,4
+LOMBARD MIRROR,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Restoration Hardware,2195,1.0,2.9166666666666665
+8X10 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,Hollywood Regency,Restoration Hardware,109,4.0,2.0595238095238093
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,1.726190476190476
+Acrylic Painting Print,still life art panels,art panels,Wall Art,Scandinavian,Joss And Main,108.99,1.0,1.75
+Keenum 4 Door Cabinet,Showcase Units,Display Units,Furniture,Hollywood Regency,Wayfair,829.99,2.0,2.9761904761904763
+The Frankfurt Deer Head,ANIMAL FIGURINES,Curios and showpieces,Decor,Hollywood Regency,Wayfair,101.33,1.0,2.392857142857143
+AQUITAINE SCONCE,Hanging Lights,Lights,Lighting,Hollywood Regency,Restoration Hardware,419,2.0,2.9166666666666665
+Malone Campaign 6Drawer Dresser  Walnut,Chest of Drawers,Drawers,Furniture,Hollywood Regency,West Elm,1299,1.0,2.75
+Alexa Bed  Black,Queen Sized Beds,Beds,Furniture,Hollywood Regency,West Elm,1200,1.0,4
+Alexus Floral Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,31.99,1.0,2.392857142857143
+Sailboats at Sunrise Print,landscape paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,90.99,4.0,2.0595238095238093
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,1.0,2.392857142857143
+Roanoke Table Lamp,Table Lamps,Lamps,Lighting,COASTAL CASUAL,Wayfair,94.99,1.0,2.75
+Chesterbrook Electric Fireplace,Fireplaces,Room Heaters,Appliances,COASTAL CASUAL,Joss And Main,639.99,1.0,2.0595238095238093
+Sudie Anchor Embroidered,Pillows,Cushions,Furnishing,COASTAL CASUAL,Wayfair,59.99,4.0,2.392857142857143
+Decorative Wood Ship Wheel,metal wall art,wall accents,Wall Art,COASTAL CASUAL,Wayfair,52.87,1.0,2.392857142857143
+Cotton Satin Queen Size Bed Sheet,Double Bedsheets,Bedsheets,Furnishing,Indian Contemporary,Pepperfry,27.986,1.0,2.25
+Heading North,landscape posters,posters,Wall Art,Modern,Pottery Barn,0.8260000000000001,1.0,2.083333333333333
+Solid Blackout Curtain Panel,Door Curtains,Curtains,Furnishing,Modern,Wayfair,816,1.0,3.1666666666666665
+MGN Analog,wall clocks,clocks,Decor,Modern,Flipkart,9.786,1.0,1.3928571428571428
+Massaoud Area Rug,Wool Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,35.49,1.0,2.083333333333333
+Spacewood Classy Engineered Wood 4 Door Wardrobe,4 Door Wardrobes,Wardrobes,Furniture,Scandinavian,Flipkart,251.98600000000002,1.0,2.8333333333333335
+Orient New Air White 600mm Ceiling Fan,Ceiling Fans,Fans,Appliances,Modern,Pepperfry,24.5,1.0,1.3928571428571428
+Spacewood Original Engineered Wood Dressing Table,Dressing Tables,Dressers,Furniture,Indian Contemporary,Flipkart,107.086,1.0,3.0
+final_val:,99,final_price: ,11334,final_area: ,131,n_assets:,27,total_qty:,40.0
+""
+SET 1
+Annaelle Quilted Cotton Throw,throws,throws,Furnishing,Bohemian,Wayfair,33.99,1.0,1.226190476190476
+Distressed Rug Pillow Covers,Pillow Covers,Cushions,Furnishing,Modern,West Elm,24,4.0,2.083333333333333
+Sphere  Stem Pendant,Hanging Lights,Lights,Lighting,TRANSITIONAL,West Elm,139,2.0,2.583333333333333
+Luxton Swoop Armchair,Accent Chairs,Chairs,Furniture,Hollywood Regency,Wayfair,141.99,2.0,3.3333333333333335
+Dobson Nightstand,Bedside Tables,Tables,Furniture,COASTAL CASUAL,Wayfair,369.99,2.0,4
+CELA SHAGREEN 6DRAWER DRESSER,Chest of Drawers,Drawers,Furniture,Hollywood Regency,Restoration Hardware,3695,1.0,2.4166666666666665
+CELA SHAGREEN PLATFORM BED,Queen Sized Beds,Beds,Furniture,Hollywood Regency,Restoration Hardware,2996,1.0,3.6666666666666665
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,1.226190476190476
+Keenum 4 Door Cabinet,Showcase Units,Display Units,Furniture,Hollywood Regency,Wayfair,829.99,2.0,2.4761904761904763
+The Frankfurt Deer Head,ANIMAL FIGURINES,Curios and showpieces,Decor,Hollywood Regency,Wayfair,101.33,1.0,1.8928571428571428
+Cara Composite Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,38.98,1.0,2.392857142857143
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,1.0,1.8928571428571428
+Patroclus Maybury French Blue,Table Lamps,Lamps,Lighting,COASTAL CASUAL,Wayfair,119.99,1.0,2.75
+Chesterbrook Electric Fireplace,Fireplaces,Room Heaters,Appliances,COASTAL CASUAL,Joss And Main,639.99,1.0,1.5595238095238093
+Decorative Wood Ship Wheel,metal wall art,wall accents,Wall Art,COASTAL CASUAL,Wayfair,52.87,1.0,1.8928571428571428
+Rounding the Mark Painting,still life paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,79.99,4.0,2.0595238095238093
+Mcnichols Mirror,Wall Mirrors,Mirrors,Decor,CONTEMPORARY,Wayfair,64,1.0,2.583333333333333
+Black Synthetic Frames,collage photo frames,Picture Frames,Wall Art,Modern,Pepperfry,30.926000000000002,4.0,1.75
+Discover Black Square Framed Poster,slogan posters,posters,Wall Art,Modern,Pepperfry,6.006,1.0,1.75
+Hydrangeas in Mason Jars,abstract art panels,art panels,Wall Art,Modern,Joss And Main,86.98,1.0,1.75
+Brown Iron Victoria Wall Clock,wall clocks,clocks,Decor,Modern,Pepperfry,34.006,1.0,1.3928571428571428
+Floral Pattern,Single Bedsheets,Bedsheets,Furnishing,Modern,Pepperfry,5.726,1.0,2.25
+Abstract Pattern,Door Curtains,Curtains,Furnishing,Modern,Pepperfry,15.106,1.0,2.8333333333333335
+Oriental Weavers Multicolor,Synthetic Carpets,Carpets & Rugs,Furnishing,Modern,Flipkart,41.986000000000004,1.0,1.75
+Spacewood Classy Engineered Wood 4 Door Mirror Wardrobe,4 Door Wardrobes,Wardrobes,Furniture,Scandinavian,Flipkart,278.6,1.0,2.8333333333333335
+Kosmo Arena Dressing Table with Stool,Dressing Tables,Dressers,Furniture,Indian Contemporary,Pepperfry,153.986,1.0,3.0
+Orient New Air White 600mm Ceiling Fan,Ceiling Fans,Fans,Appliances,Modern,Pepperfry,24.5,1.0,0.8928571428571428
+final_val:,90,final_price: ,12089,final_area: ,178,n_assets:,27,total_qty:,40.0
+""
+SET 2
+Deco Tile Pillow Covers,Pillow Covers,Cushions,Furnishing,Indian Contemporary,West Elm,44,3.0,2.083333333333333
+Brooch Pillow Cover,Pillow Covers,Cushions,Furnishing,Modern,West Elm,49,1.0,2.083333333333333
+Sphere  Stem Pendant,Hanging Lights,Lights,Lighting,TRANSITIONAL,West Elm,139,2.0,2.583333333333333
+Philipston 2 Drawer NightstandBarn Blue,Bedside Tables,Tables,Furniture,COASTAL CASUAL,Wayfair,132.99,2.0,4
+Coalcliff Drawer Chest,Chest of Drawers,Drawers,Furniture,Indian Contemporary,Wayfair,730,1.0,2.083333333333333
+1920S ODEON CLEAR GLASS FRINGE SQUARE TABLE LAMP,Table Lamps,Lamps,Lighting,Hollywood Regency,Restoration Hardware,1025,1.0,2.4166666666666665
+LOMBARD MIRROR,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Restoration Hardware,2195,1.0,2.4166666666666665
+TREVISO TUFTED DESK CHAIR,Office Chairs,Chairs,Furniture,Hollywood Regency,Restoration Hardware,1195,2.0,3.0
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,0.726190476190476
+Alexa Bed  Black,Queen Sized Beds,Beds,Furniture,Hollywood Regency,West Elm,1200,1.0,3.5
+Quiet Morning Canvas,landscape paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,91.99,4.0,2.0595238095238093
+Chesterbrook Electric Fireplace,Fireplaces,Room Heaters,Appliances,COASTAL CASUAL,Joss And Main,639.99,1.0,1.0595238095238093
+Meeting Horses Canvas,wildlife art panels,art panels,Wall Art,MINIMALIST,Wayfair,78,1.0,1.726190476190476
+HandMade Boxy shelf,Wall Shelves,Display Units,Furniture,Bohemian,Pepperfry,64.386,2.0,2.3333333333333335
+Iris Planter  Chevron Stand,planters,pots & planters,Decor,TRANSITIONAL,West Elm,139,1.0,2.083333333333333
+Green Ceramic Vase,Vases,Vases,Decor,Modern,Pepperfry,9.506,1.0,1.3928571428571428
+Metal Ring,metal wall art,wall accents,Wall Art,Modern,Pepperfry,67.886,1.0,1.75
+SMITHMILL,throws,throws,Furnishing,Modern,All Modern,76.99,1.0,1.3928571428571428
+The Colorful Violin,music posters,posters,Wall Art,Modern,Pepperfry,14.686,1.0,1.75
+Black Synthetic,collage photo frames,Picture Frames,Wall Art,Modern,Pepperfry,27.146,4.0,1.75
+Zain 140 TC,Single Bedsheets,Bedsheets,Furnishing,Modern,Flipkart,3.766,1.0,2.25
+Geometric Pattern,Door Curtains,Curtains,Furnishing,Modern,Pepperfry,15.666,1.0,2.8333333333333335
+Massaoud PinkGreen Area Rug,Cotton Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,122.89,1.0,1.726190476190476
+Spacewood Classy Engineered Wood 4 Door Wardrobe,4 Door Wardrobes,Wardrobes,Furniture,Scandinavian,Flipkart,251.98600000000002,1.0,2.3333333333333335
+Metal Medallion Sculpture,showpieces,Curios and showpieces,Decor,Modern,Wayfair,40.99,1.0,1.726190476190476
+Kosmo Arena Dressing Table with Stool,Dressing Tables,Dressers,Furniture,Indian Contemporary,Pepperfry,153.986,1.0,2.5
+Orient New Air White 600mm Ceiling Fan,Ceiling Fans,Fans,Appliances,Modern,Pepperfry,24.5,1.0,0.3928571428571428
+Yes Celebration Analog Wall Clock,wall clocks,clocks,Decor,Modern,Flipkart,9.24,1.0,1.3928571428571428
+final_val:,84,final_price: ,10648,final_area: ,179,n_assets:,28,total_qty:,40.0
+""
+SET 3
+Annaelle Quilted Cotton Throw,throws,throws,Furnishing,Bohemian,Wayfair,33.99,1.0,1.8261904761904761
+Chicago Parsons Chair Dark Gray Fabric,Accent Chairs,Chairs,Furniture,Hollywood Regency,Wayfair,149.99,2.0,4.333333333333334
+Philipston 2 Drawer NightstandFrench Gray,Bedside Tables,Tables,Furniture,COASTAL CASUAL,Wayfair,132.99,2.0,5.0
+LOMBARD MIRROR,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Restoration Hardware,2195,1.0,3.0166666666666666
+8X10 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,Hollywood Regency,Restoration Hardware,109,4.0,2.1595238095238094
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,1.8261904761904761
+Acrylic Painting Print,still life art panels,art panels,Wall Art,Scandinavian,Joss And Main,108.99,1.0,1.85
+Keenum 4 Door Cabinet,Showcase Units,Display Units,Furniture,Hollywood Regency,Wayfair,829.99,2.0,3.9761904761904763
+The Frankfurt Deer Head,ANIMAL FIGURINES,Curios and showpieces,Decor,Hollywood Regency,Wayfair,101.33,1.0,2.492857142857143
+AQUITAINE SCONCE,Hanging Lights,Lights,Lighting,Hollywood Regency,Restoration Hardware,419,2.0,3.0166666666666666
+Malone Campaign 6Drawer Dresser  Walnut,Chest of Drawers,Drawers,Furniture,Hollywood Regency,West Elm,1299,1.0,3.75
+Alexa Bed  Black,Queen Sized Beds,Beds,Furniture,Hollywood Regency,West Elm,1200,1.0,5.0
+Alexus Floral Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,31.99,1.0,2.492857142857143
+Sailboats at Sunrise Print,landscape paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,90.99,4.0,2.1595238095238094
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,1.0,2.492857142857143
+Roanoke Table Lamp,Table Lamps,Lamps,Lighting,COASTAL CASUAL,Wayfair,94.99,1.0,2.85
+Chesterbrook Electric Fireplace,Fireplaces,Room Heaters,Appliances,COASTAL CASUAL,Joss And Main,639.99,1.0,2.1595238095238094
+Sudie Anchor Embroidered,Pillows,Cushions,Furnishing,COASTAL CASUAL,Wayfair,59.99,4.0,2.492857142857143
+Decorative Wood Ship Wheel,metal wall art,wall accents,Wall Art,COASTAL CASUAL,Wayfair,52.87,1.0,2.492857142857143
+Cotton Satin Queen Size Bed Sheet,Double Bedsheets,Bedsheets,Furnishing,Indian Contemporary,Pepperfry,27.986,1.0,2.35
+Heading North,landscape posters,posters,Wall Art,Modern,Pottery Barn,0.8260000000000001,1.0,2.183333333333333
+Solid Blackout Curtain Panel,Door Curtains,Curtains,Furnishing,Modern,Wayfair,816,1.0,3.2666666666666666
+MGN Analog,wall clocks,clocks,Decor,Modern,Flipkart,9.786,1.0,1.4928571428571429
+Massaoud Area Rug,Wool Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,35.49,1.0,2.183333333333333
+Spacewood Classy Engineered Wood 4 Door Wardrobe,4 Door Wardrobes,Wardrobes,Furniture,Scandinavian,Flipkart,251.98600000000002,1.0,3.8333333333333335
+Orient New Air White 600mm Ceiling Fan,Ceiling Fans,Fans,Appliances,Modern,Pepperfry,24.5,1.0,1.4928571428571429
+Spacewood Original Engineered Wood Dressing Table,Dressing Tables,Dressers,Furniture,Indian Contemporary,Flipkart,107.086,1.0,4.0
+final_val:,112,final_price: ,11334,final_area: ,131,n_assets:,27,total_qty:,40.0
+""
+SET 4
+Annaelle Quilted Cotton Throw,throws,throws,Furnishing,Bohemian,Wayfair,33.99,1.0,2.7261904761904763
+Chicago Parsons Chair Dark Gray Fabric,Accent Chairs,Chairs,Furniture,Hollywood Regency,Wayfair,149.99,2.0,3.4333333333333336
+Philipston 2 Drawer NightstandFrench Gray,Bedside Tables,Tables,Furniture,COASTAL CASUAL,Wayfair,132.99,2.0,4.1
+LOMBARD MIRROR,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Restoration Hardware,2195,1.0,3.0166666666666666
+8X10 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,Hollywood Regency,Restoration Hardware,109,4.0,2.1595238095238094
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,1.8261904761904761
+Acrylic Painting Print,still life art panels,art panels,Wall Art,Scandinavian,Joss And Main,108.99,1.0,1.85
+Keenum 4 Door Cabinet,Showcase Units,Display Units,Furniture,Hollywood Regency,Wayfair,829.99,2.0,3.0761904761904764
+The Frankfurt Deer Head,ANIMAL FIGURINES,Curios and showpieces,Decor,Hollywood Regency,Wayfair,101.33,1.0,2.492857142857143
+AQUITAINE SCONCE,Hanging Lights,Lights,Lighting,Hollywood Regency,Restoration Hardware,419,2.0,3.0166666666666666
+Malone Campaign 6Drawer Dresser  Walnut,Chest of Drawers,Drawers,Furniture,Hollywood Regency,West Elm,1299,1.0,2.85
+Alexa Bed  Black,Queen Sized Beds,Beds,Furniture,Hollywood Regency,West Elm,1200,1.0,4.1
+Alexus Floral Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,31.99,1.0,2.492857142857143
+Sailboats at Sunrise Print,landscape paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,90.99,4.0,2.1595238095238094
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,1.0,2.492857142857143
+Roanoke Table Lamp,Table Lamps,Lamps,Lighting,COASTAL CASUAL,Wayfair,94.99,1.0,2.85
+Chesterbrook Electric Fireplace,Fireplaces,Room Heaters,Appliances,COASTAL CASUAL,Joss And Main,639.99,1.0,2.1595238095238094
+Sudie Anchor Embroidered,Pillows,Cushions,Furnishing,COASTAL CASUAL,Wayfair,59.99,4.0,3.392857142857143
+Decorative Wood Ship Wheel,metal wall art,wall accents,Wall Art,COASTAL CASUAL,Wayfair,52.87,1.0,2.492857142857143
+Cotton Satin Queen Size Bed Sheet,Double Bedsheets,Bedsheets,Furnishing,Indian Contemporary,Pepperfry,27.986,1.0,3.25
+Heading North,landscape posters,posters,Wall Art,Modern,Pottery Barn,0.8260000000000001,1.0,2.183333333333333
+Solid Blackout Curtain Panel,Door Curtains,Curtains,Furnishing,Modern,Wayfair,816,1.0,4.166666666666666
+MGN Analog,wall clocks,clocks,Decor,Modern,Flipkart,9.786,1.0,1.4928571428571429
+Massaoud Area Rug,Wool Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,35.49,1.0,3.083333333333333
+Spacewood Classy Engineered Wood 4 Door Wardrobe,4 Door Wardrobes,Wardrobes,Furniture,Scandinavian,Flipkart,251.98600000000002,1.0,2.9333333333333336
+Orient New Air White 600mm Ceiling Fan,Ceiling Fans,Fans,Appliances,Modern,Pepperfry,24.5,1.0,1.4928571428571429
+Spacewood Original Engineered Wood Dressing Table,Dressing Tables,Dressers,Furniture,Indian Contemporary,Flipkart,107.086,1.0,3.1
+final_val:,111,final_price: ,11334,final_area: ,131,n_assets:,27,total_qty:,40.0
+""
+SET 5
+Annaelle Quilted Cotton Throw,throws,throws,Furnishing,Bohemian,Wayfair,33.99,1.0,1.8261904761904761
+Chicago Parsons Chair Dark Gray Fabric,Accent Chairs,Chairs,Furniture,Hollywood Regency,Wayfair,149.99,2.0,3.4333333333333336
+Philipston 2 Drawer NightstandFrench Gray,Bedside Tables,Tables,Furniture,COASTAL CASUAL,Wayfair,132.99,2.0,4.1
+LOMBARD MIRROR,Wall Mirrors,Mirrors,Decor,Hollywood Regency,Restoration Hardware,2195,1.0,3.9166666666666665
+8X10 CAST RIBBED METAL FRAME,single photo frames,Picture Frames,Wall Art,Hollywood Regency,Restoration Hardware,109,4.0,2.1595238095238094
+Oversized Seagrass Basket,Woven Baskets,Baskets,Decor,Scandinavian,West Elm,129,1.0,2.7261904761904763
+Acrylic Painting Print,still life art panels,art panels,Wall Art,Scandinavian,Joss And Main,108.99,1.0,1.85
+Keenum 4 Door Cabinet,Showcase Units,Display Units,Furniture,Hollywood Regency,Wayfair,829.99,2.0,3.0761904761904764
+The Frankfurt Deer Head,ANIMAL FIGURINES,Curios and showpieces,Decor,Hollywood Regency,Wayfair,101.33,1.0,3.392857142857143
+AQUITAINE SCONCE,Hanging Lights,Lights,Lighting,Hollywood Regency,Restoration Hardware,419,2.0,3.0166666666666666
+Malone Campaign 6Drawer Dresser  Walnut,Chest of Drawers,Drawers,Furniture,Hollywood Regency,West Elm,1299,1.0,2.85
+Alexa Bed  Black,Queen Sized Beds,Beds,Furniture,Hollywood Regency,West Elm,1200,1.0,4.1
+Alexus Floral Pot Planter,planters,pots & planters,Decor,COASTAL CASUAL,Wayfair,31.99,1.0,3.392857142857143
+Sailboats at Sunrise Print,landscape paintings,paintings,Wall Art,COASTAL CASUAL,Joss And Main,90.99,4.0,2.1595238095238094
+Parisian Bottle Glass Table Vase,Vases,Vases,Decor,COASTAL CASUAL,Wayfair,70.21,1.0,3.392857142857143
+Roanoke Table Lamp,Table Lamps,Lamps,Lighting,COASTAL CASUAL,Wayfair,94.99,1.0,2.85
+Chesterbrook Electric Fireplace,Fireplaces,Room Heaters,Appliances,COASTAL CASUAL,Joss And Main,639.99,1.0,2.1595238095238094
+Sudie Anchor Embroidered,Pillows,Cushions,Furnishing,COASTAL CASUAL,Wayfair,59.99,4.0,2.492857142857143
+Decorative Wood Ship Wheel,metal wall art,wall accents,Wall Art,COASTAL CASUAL,Wayfair,52.87,1.0,2.492857142857143
+Cotton Satin Queen Size Bed Sheet,Double Bedsheets,Bedsheets,Furnishing,Indian Contemporary,Pepperfry,27.986,1.0,2.35
+Heading North,landscape posters,posters,Wall Art,Modern,Pottery Barn,0.8260000000000001,1.0,2.183333333333333
+Solid Blackout Curtain Panel,Door Curtains,Curtains,Furnishing,Modern,Wayfair,816,1.0,3.2666666666666666
+MGN Analog,wall clocks,clocks,Decor,Modern,Flipkart,9.786,1.0,2.392857142857143
+Massaoud Area Rug,Wool Carpets,Carpets & Rugs,Furnishing,Bohemian,Wayfair,35.49,1.0,2.183333333333333
+Spacewood Classy Engineered Wood 4 Door Wardrobe,4 Door Wardrobes,Wardrobes,Furniture,Scandinavian,Flipkart,251.98600000000002,1.0,2.9333333333333336
+Orient New Air White 600mm Ceiling Fan,Ceiling Fans,Fans,Appliances,Modern,Pepperfry,24.5,1.0,1.4928571428571429
+Spacewood Original Engineered Wood Dressing Table,Dressing Tables,Dressers,Furniture,Indian Contemporary,Flipkart,107.086,1.0,3.1
+final_val:,109,final_price: ,11334,final_area: ,131,n_assets:,27,total_qty:,40.0
