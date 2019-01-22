@@ -12,7 +12,7 @@ def save_to_json(hsn_list, asset_data, room_id):
     ver = 0
 
     # read and save demo layout transforms
-    if False:
+    if fetch_demo_design:
         read_design_json()
     
     # JSON: read pre defined design json format

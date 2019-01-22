@@ -20,7 +20,7 @@ def create_user_profile():
     budget = 20000
     persona = 'Young Couple'
     room_type = 'Master Bedroom'
-    room_area = 15 * 20 # in ft
+    room_area = 15 * 15 # in ft
     brand_preference = ['Wayfair', 'West Elm', 'Crate And Barrel', 'Pottery Barn']
     theme_preference = ['Hollywood Regency', 'COASTAL CASUAL']
 

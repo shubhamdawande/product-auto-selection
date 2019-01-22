@@ -10,6 +10,8 @@ from utilities import save_to_json
 from create_user_profile import create_user_profile
 from globals import *
 
+#def ilp_optimizer(assets_json, *argv):
+
 ######################### Read assets database dump ##############
 
 with open('dumps/asset_database', 'rb') as fp:
@@ -19,17 +21,6 @@ with open('dumps/asset_database', 'rb') as fp:
 
 user = create_user_profile()
 room_idx = room_types.index(user._room_type)
-
-######################### Hyperparameters ########################
-
-# Weights: [theme, brand, user defined room asset, compatible room asset, user compatible, category bias, asset repeat penalty]
-wghts = {'theme':3.0, 'brand':1.5, 'user_defined':7.0, 'room_compat':2.0,
-         'user_compat_subcategory':1.2, 'user_compat_vertical':4.0,
-         'category':10.0,
-         'repeat_penalty':-0.5}
-
-# Required area coverage bounds
-req_area = [0.2, 0.6]
 
 ##################################################################
 
@@ -45,9 +36,6 @@ prob = pl.LpProblem("The Budget Optimization Problem", pl.LpMaximize)
 # each indicator variable denotes qty of ith asset
 indicator = []
 
-# amount of assets for each sub category
-asset_subcat = {}
-
 # value array per asset in database
 val_array = [0] * len(asset_data)
 
@@ -59,7 +47,6 @@ total_assets_in_room = 0
 
 # feature maps: asset to user features
 subcategory_to_brands = {}
-subcategory_to_themes = {}
 subcategory_wise_qty = {}
 
 # retrives subcategories compatible to user persona
@@ -76,18 +63,11 @@ for i in range(0, len(asset_data)):
     total_area  += asset_data[i]._dimension['depth'] * asset_data[i]._dimension['width'] * indicator[i]
 
     # mapping for subcategory to brands
-    if asset_data[i]._subcategory in subcategory_to_brands and asset_data[i]._brand in brands:
+    if asset_data[i]._subcategory in subcategory_to_brands:
         subcategory_to_brands[asset_data[i]._subcategory][brands.index(asset_data[i]._brand)] += indicator[i]
     else:
         subcategory_to_brands[asset_data[i]._subcategory] = [0] * len(brands)
         subcategory_to_brands[asset_data[i]._subcategory][brands.index(asset_data[i]._brand)] += indicator[i]
-
-    # mapping for subcategory to themes
-    if asset_data[i]._subcategory in subcategory_to_themes and asset_data[i]._theme in themes:
-        subcategory_to_themes[asset_data[i]._subcategory][themes.index(asset_data[i]._theme)] += indicator[i]
-    else:
-        subcategory_to_themes[asset_data[i]._subcategory] = [0] * len(themes)
-        subcategory_to_themes[asset_data[i]._subcategory][themes.index(asset_data[i]._theme)] += indicator[i]
 
     # qty of each subcategory
     if asset_data[i]._subcategory in subcategory_wise_qty:
@@ -114,7 +94,7 @@ for i in range(0, len(asset_data)):
     elif asset_data[i]._room_fit == user._room_type: # if asset is compatible to room
         term_room = 1/wghts['room_compat']
     else:
-        term_room = 1/wghts['user_defined']
+        term_room = 1/wghts['user_defined_wght']
     
     # stores accumulated value for each asset
     val_array[i] = term_theme + term_brand + term_room + term_user
@@ -122,28 +102,30 @@ for i in range(0, len(asset_data)):
     # objective value to maximize
     total_val1 += (term_theme + term_brand + term_room + term_user) * indicator[i]
 
-    # desired qty
-    if asset_data[i]._subcategory in asset_subcat:
-        asset_subcat[asset_data[i]._subcategory] += indicator[i]
-    else:
-        asset_subcat[asset_data[i]._subcategory] = indicator[i]
-
     # bounds for total assets per room
     total_assets_in_room += indicator[i]
 
 
 ## Objective 2: We want asset qty closer to desired quantity
 total_val2 = 0
-for k, v in subcategory_to_brands.items():
-    total_val2 -= 1.5 * ((asset_subcat[k] - desired_qty[k][room_idx]) > 0)
+for k, v in subcategory_wise_qty.items():
+    t1 = pl.LpVariable('t1_%s'%k, 0, None, pl.LpInteger)
+    t2 = pl.LpVariable('t2_%s'%k, 0, None, pl.LpInteger)
+    prob += t1 >= 0
+    prob += t2 >= 0
+    prob += v == desired_qty[k][room_idx] + t1 - t2
+    total_val2 += (wghts['desired_variance_penalty'] * (t1 + t2))
 
-## Objective 3: adding asset pairs increases the total value
+## Objective 3: adding asset in pairs increases the total value
 total_val3 = 0
 for pair in pairs:
     total_val3 += (subcategory_wise_qty[pair[1]] >= subcategory_wise_qty[pair[0]]) * 7
 
 ##################### SET OBJECTIVE FUNCTION ###############
 
+# total val1 => sum of values offered by each selected asset
+# total val2 => sum of variance in qty of asset subcategory from desired qty
+# total val3 => value offered by adding asset pairs
 prob.setObjective(total_val1 + total_val2 + total_val3)
 
 ##################### CONSTRAINTS ##########################
@@ -156,10 +138,13 @@ prob += total_area >= user._room_area * req_area[0]
 prob += total_area <= user._room_area * req_area[1]
 
 # mutual exclusiveness for brands
-arr = [i[0] for i in user._user_defined_assets]
+mandatory_assets = [i[0] for i in user._user_defined_assets]
 for k, v in subcategory_to_brands.items():
-    if k not in arr + user._user_retained_assets:
-        prob += sum(v[:]) <= min(max(v[:]), desired_qty[k][room_idx])
+    if k not in mandatory_assets + user._user_retained_assets:
+        if desired_qty[k] > 0:
+            prob += sum(v[:]) <= min(max(v[:]), desired_qty[k][room_idx] + 5)
+        else:
+            prob += sum(v[:]) == 0
 
 # mandatory user defined items
 for a in user._user_defined_assets:
@@ -251,7 +236,7 @@ while count >= 0:
 
     for v in prob.variables():
 
-        if v.varValue > 0:
+        if v.varValue > 0 and len(v.name) <= 4:
             index = int(v.name)
             final_price += asset_data[index]._price * v.varValue
             final_area += asset_data[index]._dimension['width'] * asset_data[index]._dimension['depth'] * v.varValue
@@ -316,7 +301,7 @@ while count >= 0:
     display_output.extend([[''], ['SET %d'%(2-count+3)]])
 
     for v in prob.variables():
-        if v.varValue > 0:
+        if v.varValue > 0 and len(v.name) <= 4:
             index = int(v.name)
             final_price += asset_data[index]._price * v.varValue
             final_area += asset_data[index]._dimension['width'] * asset_data[index]._dimension['depth'] * v.varValue
@@ -348,11 +333,11 @@ with open('output_data/hsn_budget_%s.csv'%user._budget, 'wb') as myfile:
 ################# send data to server #####################
 
 ## Write output to JSON
-print 'Uploading designs to server...'
 save_to_json(hsn_out_list, asset_data, room_id)
 #response =  requests.post("https://homefuly.com:3443/api/auth/login", json=login_account_info)
 
 ## Post design json data to server
+print 'Uploading designs to server...'
 for i in range(0, 6):
     with open("output_designs/output_%d.json"%i, "r") as read_file:
         hsn = json.load(read_file)

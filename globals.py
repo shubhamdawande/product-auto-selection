@@ -3,12 +3,27 @@ org_id = '5b068f62714382439d32fa04'
 proj_id = '5c2de062fadece04e42425ed'
 room_id = '5c360388e5194c32118ba33c'
 
-# Server info
+## Server info
 auth_token = "JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YjJiNGRkYmY3NzE0OTUzNzkzNTdlNTMiLCJuYW1lIjoiYWJoaXNoZWsgZGViIiwiZW1haWwiOiJ2aWt6OTEuZGViQGdtYWlsLmNvbSIsInJvbGUiOiJtZW1iZXIiLCJpYXQiOjE1NDc3MzMyMzAsImV4cCI6MTU0ODA5MzIzMH0.5mgk09LTxqjeXYIPAHYH-Aq4e8dkpVfvss1rwQF9RZA"
 header = {"Authorization" : auth_token}
 versions_arr = ['5c3f2c52cd51932fec2b1665', '5c3f2c5bcd51932fec2b1666', '5c3f2d62cd51932fec2b1667', '5c3f2d6acd51932fec2b1668', '5c3f2d72cd51932fec2b1669', '5c3f2d7bcd51932fec2b166a']
 login_account_info = {"email":"vikz91.deb@gmail.com","password":"19@Kaka91"}
+
+## Flags
 fetch_assets_from_server = False
+fetch_demo_design = False
+
+## Hyperparameters
+
+# Weights: [theme, brand, user defined room asset, compatible room asset, user compatible, category bias, asset repeat penalty]
+wghts = {'theme':3.0, 'brand':1.5, 'user_defined_wght':7.0, 'room_compat':2.0,
+         'user_compat_subcategory':1.2, 'user_compat_vertical':4.0,
+         'category':10.0,
+         'repeat_penalty':-5.0,
+         'desired_variance_penalty': -3.0}
+
+# Required area coverage bounds
+req_area = [0.2, 0.7]
 
 ## Constant lists
 brands = ['Wayfair', 'Joss And Main', 'CB2', 'West Elm', 'Crate And Barrel',
@@ -27,8 +42,8 @@ room_types = ['Master Bedroom', 'Living Room', 'Kids Bedroom', 'Home Office']
 ## Desired Count of each item subcategory wise
 desired_qty = {
             'Sofas':[0],
-            'Chairs':[2],
-            'Tables':[2],
+            'Chairs':[3],
+            'Tables':[3],
             'Dining':[0],
             'Shoe Racks':[0],
             'TV Units':[0],
