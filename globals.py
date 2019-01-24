@@ -22,7 +22,7 @@ wghts = {'theme':3.0, 'brand':1.5, 'user_defined_wght':7.0, 'room_compat':2.0,
          'repeat_penalty':-5.0,
          'desired_variance_penalty': -3.0}
 
-# Required area coverage bounds
+# Required area coverage %percentage
 req_area = [0.2, 0.7]
 
 ## Constant lists

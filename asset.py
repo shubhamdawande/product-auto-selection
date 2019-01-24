@@ -7,7 +7,7 @@ class Asset:
                  '_dimension', '_theme', '_brand', '_room_fit')
     
     def __init__(self, asset_id, asset_name, asset_category, asset_subcategory, asset_vertical, asset_price,
-                asset_dimension, asset_theme, asset_brand, asset_room_fit):
+                asset_dimension, asset_theme, asset_brand, asset_room_type):
         
         self._id = asset_id
         self._name = asset_name
@@ -18,4 +18,4 @@ class Asset:
         self._dimension = asset_dimension
         self._theme = asset_theme
         self._brand = asset_brand
-        self._room_fit = asset_room_fit
+        self._room_type = asset_room_type

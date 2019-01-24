@@ -3,10 +3,11 @@ import copy
 import random
 import pickle
 import requests
+import pulp as pl
 from globals import *
 
 ## routine to write data in json format
-def save_to_json(hsn_list, asset_data, room_id):
+def save_to_json(hsn_list, asset_data, user_action):
     
     # demo design version
     ver = 0
@@ -42,7 +43,7 @@ def save_to_json(hsn_list, asset_data, room_id):
 
     for set in hsn_list:
 
-        # read layout reference pickle file
+        # read layout hotspots pickle file
         with open('dumps/layout_positions_MasterBedroom_%d'%ver, 'rb') as fp:
             layout_ref = pickle.load(fp)
 
@@ -62,14 +63,19 @@ def save_to_json(hsn_list, asset_data, room_id):
                     fmt['asset'] = asset[0] # asset id
                     data['assets'].append(copy.deepcopy(fmt))
                 else:
-                    fmt['transform'] = {
-                                        "position": { "x": random.uniform(-0.3,0.3), "y": 0.2, "z": random.uniform(-0.3,0.3)},
+                    fmt['transform'] = {"position": { "x": random.uniform(-0.3,0.3), "y": 0.2, "z": random.uniform(-0.3,0.3)},
                                         "rotation": { "x": 0, "y": 0, "z": 0},
-                                        "scale":    { "x": 1, "y": 1, "z": 1}
-                                        }
+                                        "scale":    { "x": 1, "y": 1, "z": 1}}
+        
+        if user_action == 'generate_initial_design':
 
-        with open("output_designs/output_%d.json" % i, "w") as write_file:
-            json.dump(data, write_file)
+            with open("output_designs/output_%d.json" % i, "w") as write_file:
+                json.dump(data, write_file)
+        
+        elif user_action == 'modify_design':
+            
+            with open("output_designs/output_modified.json", "w") as write_file:
+                json.dump(data, write_file)
         
         i += 1
 
@@ -110,3 +116,49 @@ def read_design_json():
         # PICKLE
         with open('dumps/layout_positions_MasterBedroom_%s'%i, 'wb') as fp:
             pickle.dump(layout_positions, fp)
+
+
+## ROUTINE to remove non optimal solution scenario
+# in case of low budget and too many mandatory assets by removing low value assets
+
+def make_model_feasible(prob, user):
+
+    while pl.LpStatus[prob.status] == 'Infeasible':
+
+        max_index = 0
+        val = 0
+        flag = False # to indicate optimal solution achieved/not
+                
+        if user._user_mandatory_assets == []:
+            prob.solve(pl.PULP_CBC_CMD())
+            print ("Status: ", pl.LpStatus[prob.status])
+            if prob.status == 'Infeasible':
+                raise Exception('Some unknown constraint is violated!!')
+            return prob, user
+
+        for tupl in user._user_mandatory_assets:
+            if tupl[0] not in room_type_fit[room_type]:
+                user._user_mandatory_assets.remove(tupl)
+                del prob.constraints['constraint_mandatory_%s'%tupl[0]]
+                prob.solve(pl.PULP_CBC_CMD())
+                print ("Status: ", pl.LpStatus[prob.status])
+                if pl.LpStatus[prob.status] == 'Optimal':
+                    flag = True
+                    break
+            else:
+                idx = room_type_fit[room_type].index(tupl[0])
+                if idx >= max_index:
+                    max_index = idx
+                    val = tupl[1]
+
+        if flag:
+            return prob, user
+        else:
+            user._user_mandatory_assets.remove([room_type_fit[user._room_type][max_index], val])
+            del prob.constraints['constraint_mandatory_%s'%room_type_fit[user._room_type][max_index]]
+            prob.solve(pl.PULP_CBC_CMD())
+            print ("Status: ", pl.LpStatus[prob.status])
+            if pl.LpStatus[prob.status] == 'Optimal':
+                return prob, user
+    
+    return prob, user
